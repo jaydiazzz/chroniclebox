@@ -1,1 +1,1 @@
-# chroniclebox
+# Chronicle Subscription Box
