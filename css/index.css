@@ -47,6 +47,15 @@ header:before{
     }
 }
 
+.nav{
+  padding-left:0;
+}
+
+nav ul{
+  width: 100%;
+  padding: 0;
+}
+
 nav ul li{
   padding: 3% 1%!important; 
   width: 100%; 
