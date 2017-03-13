@@ -93,15 +93,15 @@ section div{
 }
 
 .one{
-  background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/ca/Fresno_CA_Van_Ness_portal.JPG');
+  background-image:url('../fresno.JPG');
 }
 
 .two{
-  background-image:url('https://static.pexels.com/photos/322207/pexels-photo-322207.jpeg');
+  background-image:url('../clothing.jpeg');
 }
 
 .three{
-  background-image:url('https://static.pexels.com/photos/29643/pexels-photo.jpg');
+  background-image:url('../houses.jpg');
 }
 
 /**************************IPHONE5********************************/
