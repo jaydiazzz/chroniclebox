@@ -54,10 +54,11 @@ header:before{
 nav ul{
   width: 100%;
   padding: 0;
+  float:left;
 }
 
 nav ul li{
-  padding: 3% 1%!important; 
+  padding: 3% 0%!important; 
   width: 100%; 
   text-align:center;
 }
