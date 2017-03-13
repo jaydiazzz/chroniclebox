@@ -71,6 +71,7 @@ nav a{
 main{
   overflow:hidden;
   padding:1%;
+  padding-top:12vh;
 }
 
 h2{
