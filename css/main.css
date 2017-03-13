@@ -42,7 +42,7 @@ p{
 
 .nav.scrolled {
     background-color: #1a1a1a !important;
-    transition: background-color 1s ease-in-out !important;
+    transition: background-color .5s ease-in-out !important;
 }
 
 .nav.scrolled .nav-link {
