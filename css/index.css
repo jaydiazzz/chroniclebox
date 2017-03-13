@@ -14,7 +14,7 @@ header:before{
     z-index: 1;
     filter:opacity(0.6);
     -webkit-filter:opacity(.6);
-    background-image:url('https://images.pexels.com/photos/26549/pexels-photo-26549.jpg?w=940&h=650&auto=compress&cs=tinysrgb')!important;
+    background-image:url('headerimage.jpg')!important;
     background-size:100% 100%;
 }
 
