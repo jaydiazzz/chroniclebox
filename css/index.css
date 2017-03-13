@@ -41,7 +41,7 @@ h2{
 }
 
 #img{
-  background-image:url('../img/blackbackground.png');
+  background-image:url('../blackbackground.png');
   background-repeat:no-repeat;
   background-size:200% 300%;
   background-position:center;
