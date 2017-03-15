@@ -103,8 +103,23 @@ main ul{
 }
 
 .whaty,.howy{
-  width:50%;
   float:left;
+}
+
+.whaty{
+  width:55%;
+}
+
+.howy{
+  width:45%
+}
+
+.whaty h2, .howy h2 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 0;
+    margin-bottom: 4%;
 }
 
 h1{
