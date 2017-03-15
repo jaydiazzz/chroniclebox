@@ -181,7 +181,30 @@ section div{
   .whaty,.howy{
       width:100%;
     }
-    .whaty >, .howy >{
+    
+    .whaty p {
+      float: left;
+      width: 97%;
+      margin-left: 2%;
+    }
+    
+    #img{
+      width: 90%;
+      height: 125px;
+      margin-left: 5%;
+    }
+    
+    section div{
         width:100%;
+    }
+    
+    .circle{
+       width: 60vw;
+       height: 58vw;
+       margin-left:17%;
+    }
+    
+    section p{
+        text-align:center;
     }
 }
