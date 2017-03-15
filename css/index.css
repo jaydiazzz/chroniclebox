@@ -115,11 +115,17 @@ main ul{
 }
 
 .whaty h2, .howy h2 {
-    text-align: center;
-    width: 100%;
-    float: left;
-    margin: 0;
-    margin-bottom: 4%;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin: 0;
+  margin-bottom: 4%;
+}
+
+.whaty p{
+  float: left;
+  width: 65%;
+  margin-left: 2%;
 }
 
 h1{
