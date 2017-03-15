@@ -98,8 +98,8 @@ p{
 }
 
 main ul{
-  float:right;
-  width:45%;
+  float:left;
+  width:100%;
 }
 
 h1{
