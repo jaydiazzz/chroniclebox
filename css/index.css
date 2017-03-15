@@ -102,6 +102,11 @@ main ul{
   width:100%;
 }
 
+.whaty,.howy{
+  width:50%;
+  float:left;
+}
+
 h1{
   width:100%;
   clear:both;
