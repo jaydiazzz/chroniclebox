@@ -178,5 +178,10 @@ section div{
 
 /***************************THIS IS FOR MOBILE*****************************/
 @media screen and (min-width:250px) and (max-width:700px) {
-  
+  .whaty,.howy{
+      width:100%;
+    }
+    .whaty >, .howy >{
+        width:100%;
+    }
 }
