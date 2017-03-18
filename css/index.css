@@ -182,6 +182,11 @@ nav a{
     font-size:32px;
     }
     
+    nav ul{
+        margin-left:0;
+        float:left;
+    }
+    
     .whaty,.howy{
       width:100%;
     }
