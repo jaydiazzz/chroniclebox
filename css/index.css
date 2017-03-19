@@ -178,13 +178,17 @@ section div{
 
 /***************************THIS IS FOR MOBILE*****************************/
 @media screen and (min-width:250px) and (max-width:700px) {
-nav a{
-    font-size:32px;
+    nav a{
+      font-size:32px;
     }
     
     nav ul{
+      margin-left:0;
+      float:left;
+    }
+    
+    .link{
         margin-left:0;
-        float:left;
     }
     
     .whaty,.howy{
