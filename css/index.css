@@ -188,7 +188,8 @@ section div{
     }
     
     .link{
-        margin-left:0;
+        margin-left:0!important;
+        padding-top:50px;
     }
     
     .whaty,.howy{
