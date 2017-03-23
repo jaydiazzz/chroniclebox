@@ -31,7 +31,7 @@ a{
     color:inherit;
 }
 
-a:hover,a:active,a:visited{
+a:hover,a:active,a:visited,a:focus{
     color:inherit!important;
     text-decoration: none!important;
 }
