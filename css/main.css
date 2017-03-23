@@ -55,6 +55,7 @@ p{
 }
 
 header{
+    color:white;
     height:100vh;
     padding-bottom: 50vh;
     overflow:hidden;
