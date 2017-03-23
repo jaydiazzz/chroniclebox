@@ -19,7 +19,7 @@ header:before{
 }
 
 .header a{
-    color:white;
+    color:white!important;
     width:100%;
     text-align:center;
     position: absolute;
