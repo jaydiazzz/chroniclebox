@@ -1,7 +1,7 @@
 header{
     background-image:none!important;
     background-color:#1a1a1a;
-    padding-bottom: 0;
+    padding-bottom: 0!important;
 }
 
 header:before{
