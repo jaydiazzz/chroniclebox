@@ -74,7 +74,7 @@ nav a{
 }
 
 .container{
-    position:absolute;
+    position:absolute!important;
 }
 
 #mc_embed_signup{
