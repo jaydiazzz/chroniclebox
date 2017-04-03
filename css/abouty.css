@@ -73,6 +73,10 @@ nav a{
   font-size:64px;
 }
 
+.container{
+    position:absolute;
+}
+
 #mc_embed_signup{
     width:100%;
     height:100%;
