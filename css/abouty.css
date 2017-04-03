@@ -112,8 +112,8 @@ nav a{
     border-radius:50%;
     background-color:black;
     margin:8px auto;
-    -webkit-filter: opacity(.9);
-    filter:opacity(.6);
+    -webkit-filter: opacity(.8);
+    filter:opacity(.8);
 }
 
 .one .picture{
