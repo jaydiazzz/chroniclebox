@@ -110,6 +110,10 @@ nav a{
     margin-left:12.5%;
 }
 
+.three{
+    overflow:visible;
+}
+
 .div .picture{
     width:250px;
     height:250px;
@@ -157,6 +161,11 @@ nav a{
 .submit:hover,.three a:hover,.subscribenow:hover{
     background-color:#474242;
     cursor:pointer;
+}
+
+form table{
+    width:100%;
+    margin-top:25%;
 }
 
 /**************************IPHONE5********************************/
