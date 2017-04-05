@@ -198,11 +198,12 @@ form table{
         width:98%;
         float: left;
         margin-left:1%;
+        height:500px;
     }
     
     .three a, .subscribenow, .submit{
         width:80%;
         margin-left:-40%;
-        bottom:8%;
+        bottom:26%;
     }
 }
