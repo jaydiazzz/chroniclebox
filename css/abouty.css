@@ -212,4 +212,9 @@ form table{
     
     .three .submit{
         bottom:18%;
+    }
+    
+    .link .two{
+        padding-top:25px
+    }
 }
