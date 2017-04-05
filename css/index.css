@@ -191,6 +191,12 @@ section div{
         margin-left:0!important;
         padding-top:50px!important;
         margin-left:-5%!important;
+    }    header{
+        height:100%!important;
+    }
+    
+    .link .two{
+        padding-top:25px(
     }
     
     .whaty,.howy{
