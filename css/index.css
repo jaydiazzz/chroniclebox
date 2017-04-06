@@ -1,6 +1,7 @@
 header{
     background-image:none!important;
     background-color:#1a1a1a;
+    height:100vh!important;
 }
 
 header:before{
