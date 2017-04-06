@@ -19,5 +19,5 @@ function myFunction(x) {
 }
 
 $('.container').on('click', function() {
-    $('.nav').toggleClass('open', 300, 'easeOutQuad');
+    $('nav').toggleClass('open', 300, 'easeOutQuad');
 });
