@@ -197,7 +197,7 @@ section div{
         padding-top:25px!important(
     }
     
-    .whaty,.howy{
+    .whaty, .howy{
       width:100%;
     }
     
@@ -226,4 +226,4 @@ section div{
     section p{
         text-align:center;
     }
-}}
+}
