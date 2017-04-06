@@ -1,7 +1,6 @@
 header{
     background-image:none!important;
     background-color:#1a1a1a;
-    height:100vh!important;
 }
 
 header:before{
@@ -212,6 +211,7 @@ section div{
       width: 90%;
       height: 125px;
       margin-left: 5%;
+        margin-bottom:1%;
     }
     
     section div{
