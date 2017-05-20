@@ -89,96 +89,19 @@
         <div class="div three">
             <div class="picture"></div>
             <p>Want To Subscribe To Chronicle Box?</p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" onsubmit="this.target = 'paypal';
-return ReadForm (this);">
-<input type="hidden" name="cmd" value="_xclick-subscriptions">
-<input type="hidden" name="business" value="chroniclebox.us@gmail.com">
-<input type="hidden" name="lc" value="US">
-<input type="hidden" name="item_name" value="Chronicle Subscription">
-<input type="hidden" name="no_note" value="1">
-<input type="hidden" name="no_shipping" value="2">
-<input type="hidden" name="rm" value="1">
-<input type="hidden" name="return" value="http://chroniclebox.us/survey.html">
-<input type="hidden" name="cancel_return" value="http://chroniclebox.us">
-<input type="hidden" name="src" value="1">
-<input type="hidden" name="a3" value="44.99">
-<input type="hidden" name="p3" value="1">
-<input type="hidden" name="t3" value="M">
-<input type="hidden" name="currency_code" value="USD">
-<input type="hidden" name="bn" value="PP-SubscriptionsBF:chroniclebox.us:NonHosted">
-<table>
-<tr><td><input type="hidden" name="on0" value="Shirt Size">Shirt Size</td></tr><tr><td><select name="os0">
-	<option value="Small">Small </option>
-	<option value="Medium">Medium </option>
-	<option value="Large">Large </option>
-	<option value="X-Large">X-Large </option>
-	<option value="XX-Large">XX-Large </option>
-</select> </td></tr>
-</table>
-<input type = "text"
-size = "10"
-name = "coupcode"; />
-
-<input type="button" value="Check It"
-onclick="coupval = this.form.coupcode.value;
-ChkCoup();" />
-<button type="submit" border="0" name="submit" alt="Donate Here" class="submit" onclick="submit">Get Your Box</button>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-            <script type="text/javascript">
-<!--
-var discnt = 0; // no default percent discount
-
-var coupons = new Array ( // place to put coupon codes
-"coup1", // 1st coupon value - comma seperated
-"coup2", // 2nd coupon value - add all you want
-"coup3" // 3rd coupon value
-);
-var coupdc = new Array ( // place to put discounts for coupon vals
-5,
-10,
-15
-);
-var coupval = "(blanket)"; // what user entered as coupon code
-
-function ChkCoup () { // check user coupon entry
-var i;
-discnt = 0; // assume the worst
-for (i=0; i<coupons.length; i++) {
-if (coupval == coupons[i]) {
-discnt = coupdc[i]; // remember the discount amt
-alert ("Valid coupon number! \n\n" + discnt +
-"% discount now in effect.");
-return;
-}
-}
-alert ("'" + coupval + "' is not a valid code!");
-}
-
-function Dollar (val) { // force to valid dollar amount
-var str,pos,rnd=0;
-if (val < .995) rnd = 1; // for old Netscape browsers
-str = escape (val*1.0 + 0.005001 + rnd); // float, round, escape
-pos = str.indexOf (".");
-if (pos > 0) str = str.substring (rnd, pos + 3);
-return str;
-}
-
-function ReadForm (obj1) { // apply the discount
-var amt,des;
-amt = obj1.baseamt.value*1.0; // base amount
-des = obj1.basedes.value; // base description
-
-if (discnt > 0) { // only if discount is active
-amt = Dollar (amt - (amt * discnt/100.0));
-des = des + ", " + discnt + "% dis, COUP = " + coupval;
-}
-
-obj1.amount.value = Dollar (amt);
-obj1.item_name.value = des;
-}
-//-->
-</script>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="YTRK8P4AVJS4A">
+                <button type="submit" border="0" name="submit" alt="Chronicle Subsciption" class="submit" onclick="submit">Get Your Box</button>
+                <table>
+                <tr><td><input type="hidden" name="on0" value="Shirt Size">Shirt Size</td></tr><tr><td><select name="os0">
+                	<option value="Small">Small </option>
+                	<option value="Medium">Medium </option>
+                	<option value="Large">Large </option>
+                	<option value="X-Large">X-Large </option>
+                </select> </td></tr>
+                </table>
+                </form>
 
         </div>
     </header>
