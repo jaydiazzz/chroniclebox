@@ -89,7 +89,8 @@
         <div class="div three">
             <div class="picture"></div>
             <p>Want To Subscribe To Chronicle Box?</p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" onsubmit="this.target = 'paypal';
+return ReadForm (this);">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="YTRK8P4AVJS4A">
                 <button type="submit" border="0" name="submit" alt="Chronicle Subsciption" class="submit" onclick="submit">Get Your Box</button>
