@@ -91,25 +91,41 @@
             <p>Want To Subscribe To Chronicle Box?</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" onsubmit="this.target = 'paypal';
 return ReadForm (this);">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="YTRK8P4AVJS4A">
-                <button type="submit" border="0" name="submit" alt="Chronicle Subsciption" class="submit" onclick="submit">Get Your Box</button>
-                <table>
-                <tr><td><input type="hidden" name="on0" value="Shirt Size">Shirt Size</td></tr><tr><td><select name="os0">
-                	<option value="Small">Small </option>
-                	<option value="Medium">Medium </option>
-                	<option value="Large">Large </option>
-                	<option value="X-Large">X-Large </option>
-                </select> </td></tr>
-                    <input type = "text"
+<input type="hidden" name="cmd" value="_xclick-subscriptions">
+<input type="hidden" name="business" value="chroniclebox.us@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Chronicle Subscription">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="rm" value="1">
+<input type="hidden" name="return" value="http://chroniclebox.us/survey.html">
+<input type="hidden" name="cancel_return" value="http://chroniclebox.us">
+<input type="hidden" name="src" value="1">
+<input type="hidden" name="a3" value="44.99">
+<input type="hidden" name="p3" value="1">
+<input type="hidden" name="t3" value="M">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-SubscriptionsBF:chroniclebox.us:NonHosted">
+<table>
+<tr><td><input type="hidden" name="on0" value="Shirt Size">Shirt Size</td></tr><tr><td><select name="os0">
+	<option value="Small">Small </option>
+	<option value="Medium">Medium </option>
+	<option value="Large">Large </option>
+	<option value="X-Large">X-Large </option>
+	<option value="XX-Large">XX-Large </option>
+</select> </td></tr>
+</table>
+<input type = "text"
 size = "10"
 name = "coupcode"; />
 
 <input type="button" value="Check It"
 onclick="coupval = this.form.coupcode.value;
 ChkCoup();" />
-                </table>
-                <script type="text/javascript">
+<button type="submit" border="0" name="submit" alt="Donate Here" class="submit" onclick="submit">Get Your Box</button>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+            <script type="text/javascript">
 <!--
 var discnt = 0; // no default percent discount
 
@@ -163,7 +179,6 @@ obj1.item_name.value = des;
 }
 //-->
 </script>
-                </form>
 
         </div>
     </header>
