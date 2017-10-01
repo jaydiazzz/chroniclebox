@@ -186,10 +186,10 @@ section {
 
 @media screen and (max-width:350px) {
 #work #img{
-	margin-left:0%;
+	margin-left:5%!important;
 	}
 	#work a{
-		margin-left:0%;}
+		margin-left:5%!important;}
 }
 
 /***************************THIS IS FOR MOBILE*****************************/
