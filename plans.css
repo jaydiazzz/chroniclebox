@@ -1,0 +1,111 @@
+header {
+	height: 0!important;
+	padding-bottom: 0!important;
+}
+h2 {
+	text-align: center;
+}
+hr {
+	background-color: #1a1a1a;
+}
+form {
+	float: left;
+	width: 20%;
+	margin: 2.5%;
+}
+form table {
+	margin-left: 5vw;
+}
+.submit {
+	width: 80%;
+	background-color: #c9c9c9;
+	color: white;
+	padding: 4% 8%;
+	bottom: 5%;
+	border: none;
+	text-shadow: 1px 1px 1px black;
+}
+.submit:hover {
+	background-color: #474242;
+	cursor: pointer;
+}
+.picture {
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 175px;
+	float: left;
+	margin-left: 5%;
+}
+.fall {
+	background-image: url('../img/fall.jpg')
+}
+.holiday {
+	background-image: url('../img/holiday.jpeg');
+}
+.original {
+	background-image: url('../img/blackbackground.png');
+	background-size: 200% 200%;
+}
+.spring {
+	background-image: url('../img/spring.jpeg');
+}
+.winter {
+	background-image: url('../img/winter.jpeg');
+}
+.summer {
+	background-image: url('../img/summer.jpeg');
+}
+p {
+	float: left;
+	width: 40%;
+	margin-left: 10%;
+	margin-bottom: 10%!important;
+}
+
+/***************************THIS IS FOR MOBILE*****************************/
+
+@media screen and (min-width:250px) and (max-width:700px) {
+	.picture {
+		width: 90%;
+	}
+	p {
+		width: 80%;
+		margin-bottom: 2%!important;
+	}
+	form {
+		width: 95%;
+	}
+	form table {
+		margin-left: 38%;
+		margin-bottom: 2%;
+	}
+	.submit {
+		width: 60%;
+		margin-left: 20%;
+	}
+}
+
+/*****************************IPAD**********************************/
+
+@media screen and (min-width:760px) and (max-width:1100px) {
+	.picture {
+		width: 325px;
+	}
+	p {
+		margin-left: 5%;
+	}
+	form {
+		width: 35%;
+		margin-left: 11.5%;
+	}
+	form table {
+		margin-left: 8vw;
+		margin-bottom: 2%;
+	}
+	footer {
+		position: absolute;
+		bottom: 0;
+	}
+}

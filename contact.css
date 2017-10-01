@@ -1,0 +1,193 @@
+header{
+    background-color:#1a1a1a;
+}
+
+header:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    filter:opacity(1);
+    -webkit-filter:opacity(1);
+    background-image:url('../img/contact.jpg')!important;
+    background-size:100% 100%;
+    background-position:center;
+}
+
+main{
+    padding:1%;
+    padding-bottom:5%;
+}
+
+ul{
+    list-style-type:none;
+}
+
+h1{
+    text-align:center;
+}
+
+iframe{
+    float:left;
+    -webkit-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.div{
+    position: relative;
+    width:auto;
+    height:auto;
+}
+
+.div:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    filter:opacity(0.6);
+    -webkit-filter:opacity(.6);
+    background-color:black;
+}
+
+main div{
+    padding-left:2%;
+    float:left;
+    position: relative;
+    width:40%;
+}
+
+h3{
+    clear:right;
+    margin-bottom:5%!important;
+}
+
+#form {
+    margin: 0;
+    padding: 50px 0;
+}
+
+form li:nth-child(1) {
+    float: left;
+}
+
+form li:nth-child(2) {
+    float: left;
+}
+
+form {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+form li{
+    text-align:center;
+    margin-bottom: 2%;
+    width:100%;
+}
+
+#form ul li:last-child {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin-left:5%;
+    box-sizing: border-box;
+    border:1px lightgray solid;
+}
+
+#textbox {
+    box-sizing: border-box;
+    resize: none;
+    direction: ltr;
+    width:80%;
+    padding-bottom:25%!important;
+    padding: 12px 20px;
+    margin-left:5%;
+    border:1px lightgray solid;
+}
+
+#submit {
+    background-color: #c9c9c9;
+    border: none;
+    color: #fff;
+    padding: 20px 60px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float:right;
+}
+
+#submit:hover{
+    background-color:#d9d9d9;
+}
+
+label{
+    float:left;
+    width:15%;
+}
+
+/***************************THIS IS FOR MOBILE*****************************/
+@media screen and (min-width:250px) and (max-width:700px) {
+    header:before{
+        background-size:180% 100%;
+    }
+    
+    main div{
+        width:95%;
+        padding-left:2.5%;
+    }
+    
+    .div{
+        width:95%;
+        margin-left:2.5%;
+    }
+    
+    iframe{
+        width:100%;
+    }
+    
+    form{
+        padding:0;
+        margin-left:2.5%;
+        width:95%;
+    }
+    
+    label{
+        margin-right:5%;
+    }
+    
+    #submit{
+        margin-right:-25%;
+    }
+}
+
+/*****************************IPAD**********************************/
+@media screen and (min-width:760px) and (max-width:1100px) {
+    main div{
+        width:90%;
+        margin-left:5%;
+    }
+    
+    form{
+        width:100%;
+        padding-left:0;
+    }
+}

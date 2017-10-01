@@ -1,0 +1,46 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+* {
+	font-family: 'Open Sans', sans-serif;
+	transition: .3s ease-in-out;
+}
+body {
+	background-color: #eee;
+}
+h1 {
+	font-size: 64px;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 1px 1px black;
+}
+div {
+	float: left;
+	margin: 5%;
+}
+div:first-of-type {
+	margin-left: 17.5vw;
+}
+h2 {
+	text-align: center;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+/***************************THIS IS FOR MOBILE*****************************/
+
+@media screen and (min-width:250px) and (max-width:700px) {
+	div {
+		width: 100%;
+		margin: 0;
+	}
+	div:first-of-type {
+		margin-left: 0;
+	}
+	h3 {
+		width: 100%;
+		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}
