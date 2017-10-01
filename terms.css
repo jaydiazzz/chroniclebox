@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 8px!important;
+	height: 8px!important;
+}
+::-webkit-scrollbar-thumb {
+	-webkit-appearance: none;
+	box-shadow: inset 0 0 0 2px #1a1a1a!important;
+	background: #b3b3b3!important;
+}
+::-webkit-scrollbar-track {
+	-webkit-appearance: none;
+	background: #1a1a1a!important;
+}
+body {
+	font-family: 'Arial';
+	padding: 66px 20px 100px;
+}
+p {
+	color: #595959;
+}
