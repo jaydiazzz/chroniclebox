@@ -184,7 +184,13 @@ section {
 
 /**************************IPHONE5********************************/
 
-@media screen and (max-width:350px) {}
+@media screen and (max-width:350px) {
+#work #img{
+	margin-left:5%;
+	}
+	#work a{
+		margin-left:5%;}
+}
 
 /***************************THIS IS FOR MOBILE*****************************/
 
