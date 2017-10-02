@@ -36,7 +36,9 @@ Header set Cache-Control "max-age=172800, public, must-revalidate"
 Header set Cache-Control "max-age=14400, must-revalidate"
 </FilesMatch>
 
-Header append Cache-Control "public, must-revalidate"
+  <IfModule mod_headers.c>
+    Header append Cache-Control "public, no-transform"
+  </IfModule>
 
 </IfModule>
 ## EXPIRES CACHING ##
