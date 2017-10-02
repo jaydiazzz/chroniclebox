@@ -22,9 +22,6 @@ ExpiresByType links "access 10 minutes"
   AddOutputFilterByType DEFLATE text/xml
   AddOutputFilterByType DEFLATE text/plain
   AddOutputFilterByType DEFLATE image/x-icon
-  AddOutputFilterByType DEFLATE image/jpeg
-  AddOutputFilterByType DEFLATE image/jpg
-  AddOutputFilterByType DEFLATE image/png
   AddOutputFilterByType DEFLATE image/svg+xml
   AddOutputFilterByType DEFLATE application/rss+xml
   AddOutputFilterByType DEFLATE application/javascript
