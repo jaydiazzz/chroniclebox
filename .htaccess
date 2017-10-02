@@ -1,10 +1,10 @@
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
-ExpiresByType img/jpg "access 10 minutes"
-ExpiresByType img/jpeg "access 10 minutes"
-ExpiresByType img/gif "access 10 minutes"
-ExpiresByType img/png "access 10 minutes"
+ExpiresByType imgae/jpg "access 10 minutes"
+ExpiresByType image/jpeg "access 10 minutes"
+ExpiresByType image/gif "access 10 minutes"
+ExpiresByType image/png "access 10 minutes"
 ExpiresByType text/css "access 10 minutes"
 ExpiresByType text/html "access 10 minutes"
 ExpiresByType application/pdf "access 1 month"
@@ -22,6 +22,9 @@ ExpiresByType links "access 10 minutes"
   AddOutputFilterByType DEFLATE text/xml
   AddOutputFilterByType DEFLATE text/plain
   AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE image/jpeg
+  AddOutputFilterByType DEFLATE image/jpg
+  AddOutputFilterByType DEFLATE image/png
   AddOutputFilterByType DEFLATE image/svg+xml
   AddOutputFilterByType DEFLATE application/rss+xml
   AddOutputFilterByType DEFLATE application/javascript
