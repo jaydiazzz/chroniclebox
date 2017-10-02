@@ -37,6 +37,8 @@ ExpiresByType links "access 1 month"
   AddOutputFilterByType DEFLATE font/ttf
   AddOutputFilterByType DEFLATE font/otf
   AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE http://cdn-images.mailchimp.com/embedcode/classic-10_7.css
+  AddOutputFilterByType DEFLATE http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js
 
 # For Olders Browsers Which Can't Handle Compression
   BrowserMatch ^Mozilla/4 gzip-only-text/html
