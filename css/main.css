@@ -1,4 +1,12 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+@font-face{
+	font-family: 'Ubuntu';
+	src:url('https://fonts.googleapis.com/css?family=Ubuntu');
+}
+@font-face{
+	font-family:'Droid Sans';
+	src:url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+}
 ::-webkit-scrollbar {
 	-webkit-appearance: none;
 	width: 8px!important;
