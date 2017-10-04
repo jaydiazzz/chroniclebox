@@ -1,1 +1,1 @@
-phpinfo(mod_expires.c);
+echo"phpinfo(mod_expires.c)";
