@@ -144,6 +144,12 @@ label{
     width:15%;
 }
 
+@media screen and (max-width:350px){
+    h3{
+        font-size:1.45rem!important;
+    }
+}
+
 /***************************THIS IS FOR MOBILE*****************************/
 @media screen and (min-width:250px) and (max-width:700px) {
     header:before{
