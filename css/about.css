@@ -177,6 +177,12 @@ table td{
 	section div p {
 		text-align: center;
 	}
+	table th{
+		padding:0 2%;
+	}
+	.info{
+		overflow-x:scroll;
+	}
 }
 
 /*****************************IPAD**********************************/
