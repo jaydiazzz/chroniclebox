@@ -100,132 +100,42 @@ section div {
 .three {
 	background-image: url('../img/houses.jpg');
 }
-
-/***********SLIDES**********/
-
-.mySlides {
-	display: none;
-	border: 2px solid black;
-	height: 355px;
-	background-color: rgba(255, 255, 255, .5);
-	overflow: hidden;
+.info{
+	border:none;
 }
-.mySlides p {
-	width: 45%;
-	margin-right: 8%;
+.info h2{
+	width: 100%;
+    position: relative;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding-bottom:2%;
 }
-
-/* Slideshow container */
-
-.slideshow-container {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
+.info hr{
+	border: 1px solid black;
+	border-top:none;
+    position: relative;
+    float: left;
+    width: 100%;
 }
-
-/* Next & previous buttons */
-
-.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	width: auto;
-	top: 0;
-	padding: 16px;
-	padding-top: 25%;
-	padding-bottom: 25%;
-	margin-top: -22px;
-	color: transparent;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
+table{
+	margin-top:2%;
 }
-
-/* Position the "next button" to the right */
-
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
+table th{
+	text-align:center;
+	font-size:20px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
-
-.prev:hover, .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
+table tr th{
+	border:1px solid black;
 }
-
-/* Caption text */
-
-.text {
-	color: white;
-	font-size: 24px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 80%;
-	width: 20%;
-	float: right;
-	margin-left: 70%;
-	text-shadow: 1px 1px 1px black;
+table td{
+	width:2%;
+	height:10vh;
+	text-align:center;
+	border:1px solid rgba(0,0,0,.3);
 }
-
-/* Number text (1/3 etc) */
-
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
-/* The dots/bullets/indicators */
-
-.dot {
-	cursor: pointer;
-	height: 13px;
-	width: 13px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-	background-color: #717171;
-}
-
-/* Fading animation */
-
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
-	opacity: 1!important;
-}
-@-webkit-keyframes fade {
-	from {
-		opacity: .4
-	}
-	to {
-		opacity: 1
-	}
-}
-@keyframes fade {
-	from {
-		opacity: .4
-	}
-	to {
-		opacity: 1
-	}
-}
-
-/* On smaller screens, decrease text size */
-
-@media only screen and (max-width: 300px) {
-	.prev, .next, .text {
-		font-size: 11px
-	}
+.green{
+	color:#339966;
 }
 
 /**************************IPHONE5********************************/
