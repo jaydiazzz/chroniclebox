@@ -118,17 +118,17 @@ section div {
     float: left;
     width: 100%;
 }
-table{
+main table{
 	margin-top:2%;
 }
-table th{
+main table th{
 	text-align:center;
 	font-size:20px;
 }
-table tr th{
+main table tr th{
 	border:1px solid black;
 }
-table td{
+main table td{
 	width:2%;
 	height:10vh;
 	text-align:center;
@@ -177,7 +177,7 @@ table td{
 	section div p {
 		text-align: center;
 	}
-	table th{
+	main table th{
 		padding:0 2%;
 	}
 	.info{
