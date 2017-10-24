@@ -324,6 +324,9 @@ footer {
 		width: 150%;
 		left: -25%;
 	}
+	.slideshow-container{
+		margin-top:40%;
+	}
 	form table {
 		margin-left: -10%;
 	}
