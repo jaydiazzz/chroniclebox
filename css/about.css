@@ -123,7 +123,7 @@ main table{
 }
 main table th{
 	text-align:center;
-	font-size:20px;
+	font-size:1.4vw;
 }
 main table tr th{
 	border:1px solid black;
@@ -133,6 +133,7 @@ main table td{
 	height:10vh;
 	text-align:center;
 	border:1px solid rgba(0,0,0,.3);
+	font-size:1.2vw;
 }
 .green{
 	color:#339966;
