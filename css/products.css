@@ -324,6 +324,10 @@ footer {
 		width: 150%;
 		left: -25%;
 	}
+	.fade a{
+		margin-left:50vw;
+		margin-top:-10%;
+	}
 	.slideshow-container{
 		margin-top:40%;
 	}
