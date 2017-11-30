@@ -17,14 +17,14 @@ nav {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));
 	background-size: cover;
 }
-#box1, #box3 {
-	background-size: 100% 100%;
+.box1, #box3 {
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
 	height: 100vh;
 }
-#box1 .fp-tableCell, #box3 .fp-tableCell {
+.box1 .fp-tableCell, #box3 .fp-tableCell {
 	background: linear-gradient(transparent, transparent, black 90%);
 	background: -webkit-linear-gradient(transparent, transparent, black 90%);
 	background: -o-linear-gradient(transparent, transparent, black 90%);
@@ -33,7 +33,7 @@ nav {
 #box1 {
 	background-image: url('../img/beach.jpeg');
 }
-#box1 h1, #box3 h1 {
+.box1 h1, #box3 h1 {
 	padding-top: 50vh!important;
 	text-shadow: 1px 1px 1px black;
 }
@@ -51,7 +51,7 @@ nav {
 	background-image: url('../img/urban.png');
 }
 #marloweimg {
-	background-image: url(../img/marlowe.png);
+	background-image: url('../img/marlowe.png');
 	width: 30%;
 	height: 15%;
 	background-size: 80% 50%;
@@ -64,33 +64,91 @@ nav {
 	margin-left: 5%;
 	float: left;
 }
-#box3 {
-	display: block;
-	background-image: url('../img/gillette.jpeg')!important;
-	background-position: center;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
+
 #box2 h3 {
 	float: left;
 	margin-top: 40vh;
 	margin-left: 10%;
 }
+
 #box2 p {
 	float: right;
 	margin-top: 40vh;
 	width: 50%;
 }
+
 .marlowe {
 	background-image: url('../img/forest.jpeg')!important;
 }
+
 .two {
 	background-color: #000;
 }
+
 section {
 	height: 100vh!important;
 	position: relative;
 	width: 100%;
+}
+
+.gillette {
+	background-image: url('../img/gillette.jpeg')!important;
+	background-size:100% 100%;
+}
+
+.jck{
+	background-image:url('../img/photo-234272-min.jpeg')!important;
+	background-size:100% 100%;
+}
+
+.vrsc{
+	background-image:url('../img/photo-346529-min.jpeg')!important;
+}
+
+.dav{
+	background-image:url('../img/photo-355770-min.jpeg')!important;
+}
+
+.hry{
+	background-image:url('../img/photo-395196-min.jpeg')!important;
+	background-size:100% 100%;
+}
+
+.drkr{
+	background-image:url('../img/photo-442559-min.jpeg')!important;
+}
+
+.pac{
+	background-image:url('../img/pacificshave.jpeg')!important;
+	background-size:100% 100%;
+}
+
+.pro{
+	background-image:url('../img/photo-629163-min.jpeg')!important;
+	background-size:100% 100%;
+}
+
+.img{
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:450px;
+	height:250px;
+	position:relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+}
+
+.urbanimg{
+	background-image:url('../img/urban.png');
+}
+
+.vrscimg{
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Versace_logo.svg/2000px-Versace_logo.svg.png');
+	background-size: 90%;
+	background-color: white;
+	height:100px;
 }
 
 /**************************IPHONE5********************************/
@@ -104,7 +162,7 @@ section {
 		background-size: 60% 30%;
 	}
 	#marloweimg {
-		width: 60%;
+		width: 70%;
 	}
 	header {
 		height: 0!important;
@@ -118,8 +176,16 @@ section {
 		padding-top: 0;
 		margin-top: 0;
 	}
-	#box1, #box3 {
-		background-size: 150% 100%!important;
+	.box1, #box3 {
+		background-size: 175% 100%;
+	}
+	.hry, .drkr{
+		background-size:200% 100%!important;
+	}
+	.vrscimg,.img{
+		width:90vw;
+		margin-left:5vw;
+		margin-top:15%;
 	}
 	#box2 p {
 		width: 95%;
@@ -127,7 +193,7 @@ section {
 		margin-top: 15vh;
 		margin-left: 2.5%;
 	}
-	#box1 .fp-tableCell, #box3 .fp-tableCell {
+	.box1 .fp-tableCell, #box3 .fp-tableCell {
 		background: linear-gradient(transparent, transparent, black 90%);
 		background: -webkit-linear-gradient(transparent, transparent, black 90%);
 		background: -o-linear-gradient(transparent, transparent, black 90%);
