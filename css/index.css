@@ -236,7 +236,7 @@ section
 	}
 }
 
-@media screen and min-width250px and max-width700px {
+@media screen and (min-width:250px) and (max-width:700px) {
 	header:before
 	{
 		background-size:150% 100%;
@@ -329,14 +329,14 @@ section
 	}
 }
 
-@media screen and min-width375px and max-width450px {
+@media screen and (min-width:375px) and (max-width:450px) {
 	.flashcard
 	{
 		top:18%!important;
 	}
 }
 
-@media screen and min-width760px and max-width1100px {
+@media screen and (min-width:760px) and (max-width:1100px) {
 	header:before
 	{
 		background-size:105% 100%;
