@@ -145,10 +145,11 @@ section
 
 #work ol
 {
-	float:right;
-	font-size:20px;
-	margin-right:5%;
-	width:90%;
+	float: left;
+	font-size: 20px;
+	margin-right: 0%;
+	margin: auto;
+	width: 100%;
 }
 
 #work ol li
@@ -161,10 +162,11 @@ section
 
 #work ol h1
 {
-	float:left;
-	margin:2%;
-	padding-right:0;
-	width:100%;
+	float: left;
+	padding-right: 0;
+	width: 100%;
+	text-align: left;
+	margin: auto;
 }
 
 #work ol i
@@ -300,7 +302,7 @@ section
 
 	#work ol i
 	{
-		margin-left:-10vw;
+		margin-left:15vw;
 	}
 
 	.thumbdown
