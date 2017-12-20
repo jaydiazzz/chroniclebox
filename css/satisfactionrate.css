@@ -7,7 +7,7 @@ body{
   height:100vh!important;
 }
 
-.page-title-container.clearfix {
+.page-title-container {
     height: 0!important;
     padding: 0!important;
     overflow: hidden!important;
