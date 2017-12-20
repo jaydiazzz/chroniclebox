@@ -6,9 +6,3 @@ body{
   max-width:100%!important;
   height:100vh!important;
 }
-
-.page-title-container {
-    height: 0!important;
-    padding: 0!important;
-    overflow: hidden!important;
-}
