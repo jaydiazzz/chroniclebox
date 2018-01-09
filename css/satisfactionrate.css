@@ -1,8 +1,0 @@
-body{
-  margin:0;
-}
-
-.smcx-embed, .smcx-embed>.smcx-iframe-container{
-  max-width:100%!important;
-  height:100vh!important;
-}

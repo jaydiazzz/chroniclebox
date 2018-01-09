@@ -1,3 +1,20 @@
+*{
+  transition:.1s ease-in-out!important;
+}
+
 body{
-height:100vh;
+  height:100vh;
+}
+
+.smcx-embed{
+  border:none!important;
+}
+
+.smcx-embed, .smcx-embed>.smcx-iframe-container{
+  max-width:100%!important;
+  height:100vh!important;
+}
+
+a:last-of-type{
+  display:none;
 }
