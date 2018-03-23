@@ -106,10 +106,10 @@ section {
 	background-image:url('../img/22710154.jpg');
 }
 #pictwo{
-	background-image:url('http://via.placeholder.com/400x200');
+	background-image:url('../img/shredworthy.jpg');
 }
 #picthree{
-	background-image:url('http://via.placeholder.com/400x200');
+	background-image:url('../img/harry.jpg');
 }
 #picfour{
 	background-image:url('../img/79352814.jpg');
@@ -119,7 +119,8 @@ section {
 	background-size:90% 100%;
 }
 #picsix{
-	background-image:url('http://via.placeholder.com/400x200');
+	background-image:url('../img/pacific.jpg');
+	background-size:90% 100%;
 }
 .animg{
   width:30%;
