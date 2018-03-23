@@ -1,2 +1,2 @@
-var navheight = $('nav').height();
-$('main').css('margin-top', navheight + 15);
+var navheight = document.querySelector('nav').style.height;
+document.querySelector("main").style.marginTop = navheight + 15;

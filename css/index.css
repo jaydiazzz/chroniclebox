@@ -1,1 +1,329 @@
-header{background-color:#1a1a1a;background-image:none!important}header:before{-webkit-filter:opacity(.7);background-image:url(../img/man.jpeg)!important;background-position:center;background-repeat:no-repeat;background-size:100% 100%;content:' ';display:block;filter:opacity(.7);height:100%;left:0;position:absolute;top:0;width:100%;z-index:1}.header a{-webkit-animation:move 3s infinite;animation:move 3s infinite;color:#ccc;font-size:24px!important;position:absolute;text-align:center;width:100%;z-index:999}.header a:hover{color:#e6e6e6}50%{padding-top:0}100%{padding-top:2%}.flashcard{background-color:rgba(0,0,0,.5);color:#FFF;left:5%;padding:2%;position:absolute;top:30%;width:50%;z-index:2}.flashcard a{background-color:rgba(255,255,255,.9);color:#000;float:right;margin-right:15%;padding:2% 5%}.chroniclebrand{background-image:url(../img/chronicle.jpeg);background-repeat:no-repeat;background-size:100% 100%;bottom:4%;float:left;height:7vh;left:2%;position:absolute;width:10vw;z-index:1}main{padding-bottom:5%;padding-top:15vh}section{overflow:hidden;padding:2% 2% 5%}.thumbup{margin-left:1vw}#parallax{background-color:#000;background-position:center;background-repeat:no-repeat;background-size:100% 100%;height:70vh;position:relative;width:100%}#parallax:before{background-attachment:fixed;background-image:url(../img/night.jpg);background-position:left;background-size:100% 100%;content:' ';display:block;height:100%;left:0;opacity:.8;position:absolute;top:0;width:100%;z-index:1}#val{list-style-type:none;width:50%;float:left;padding:2%}#val li{font-size:32px}#val h1,#work h1{text-align:center;font-weight:700}#work ol{float:left;font-size:20px;margin:auto;width:100%}#work ol li{float:left;font-size:32px;margin-bottom:2%;width:100%}#work ol h1{float:left;padding-right:0;width:100%;text-align:left;margin:auto}#work ol i{margin:2% 2% 2% 7vw}#themepic{float:left;margin:6% 4%;width:25%}#themepic h3{margin-bottom:50%;text-align:center}.themepic{background-position:center;background-repeat:no-repeat;background-size:100% 100%;padding:40% 50%}.first{background-image:url(../img/blackbackground.png);background-size:200% 200%}.second{background-image:url(../img/winter.jpeg)}.third{background-image:url(../img/spring.jpeg)}.fourth{background-image:url(../img/summer.jpeg)}.fifth{background-image:url(../img/fall.jpg)}.sixth{background-image:url(../img/holiday.jpeg)}@media screen and max-width350px{#work #img{margin-left:2%!important}#work a{margin-left:2%!important}}@media screen and (min-width:250px) and (max-width:700px){header:before{background-size:150% 100%}.flashcard{padding:5% 1%;top:5%;width:90%}.flashcard p{margin-left:5%;width:90%}.flashcard a{margin-right:15%;margin-top:6%;padding:5% 10%}.chroniclebrand{display:none}#val,#work{width:100%}#work h1{float:left;font-size:2rem;margin-top:10%;padding-right:0;text-align:center;width:100%}#work ol{float:left;width:100%}#work ol li{font-size:24px}#work ol h1{margin:0;width:100%}#work ol i{margin-left:15vw}.thumbdown{margin-left:22vw!important}#work a{margin-left:7%;width:300px}#themepic{margin-bottom:5%;margin-left:5%;padding-bottom:40%;width:90%}#parallax{border-bottom:1px solid #000;height:0}}@media screen and (min-width:375px) and (max-width:450px){.flashcard{top:18%!important}}@media screen and (min-width:760px) and (max-width:1100px){header:before{background-size:105% 100%}.flashcard{height:45%;margin-left:5%;width:90%}.flashcard h3{font-size:42px}.flashcard p{font-size:23px}.flashcard a{font-size:23px}#work h1{padding-right:9%}#work ol{margin-right:0}.themepic{height:225px;width:35%}#themepic{margin:9% 4%;width:42%}#themepic h3{margin-bottom:46%;margin-top:2%}}
+header {
+	background-color: #1a1a1a;
+	background-image: none!important;
+}
+header:before {
+	-webkit-filter: opacity(.7);
+	background-image: url(../img/man.jpeg)!important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	content: ' ';
+	display: block;
+	filter: opacity(.7);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.header a {
+	-webkit-animation: move 3s infinite;
+	animation: move 3s infinite;
+	color: #ccc;
+	font-size: 24px!important;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 999;
+}
+.header a:hover {
+	color: #e6e6e6;
+}
+50% {
+	padding-top: 0;
+}
+100% {
+	padding-top: 2%;
+}
+.flashcard {
+	background-color: rgba(0, 0, 0, .5);
+	color: #FFF;
+	left: 5%;
+	padding: 2%;
+	position: absolute;
+	top: 30%;
+	width: 50%;
+	z-index: 2;
+}
+.flashcard h2{
+	text-align:center;
+}
+.flashcard a {
+	background-color: rgba(255, 255, 255, .9);
+	color: #000;
+	float: right;
+	margin-right: 15%;
+	padding: 2% 5%;
+}
+.chroniclebrand {
+	background-image: url(../img/chronicle.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	bottom: 4%;
+	float: left;
+	height: 7vh;
+	left: 2%;
+	position: absolute;
+	width: 10vw;
+	z-index: 1;
+}
+main {
+	padding-bottom: 5%;
+	padding-top: 15vh;
+}
+section {
+	overflow: hidden;
+	padding: 2% 2% 5%;
+}
+.thumbup {
+	margin-left: 1vw;
+}
+.ptsection{
+	overflow:hidden;
+	padding:5% 4%;
+}
+.animg,.ptsection p{
+  float:left;
+	position:relative;
+}
+.ptsection p{
+	width:35%;
+	font-size:18px;
+}
+#productcb p:nth-child(even){
+	margin-left: 15%;
+}
+#productcb p:nth-child(odd) {
+  margin-right: 15%;
+	margin-left:5%;
+}
+#productcb .animg:nth-child(odd){
+	margin-left:5%;
+}
+#picone{
+	background-image:url('../img/22710154.jpg');
+}
+#pictwo{
+	background-image:url('../img/shredworthy.jpg');
+}
+#picthree{
+	background-image:url('../img/harry.jpg');
+}
+#picfour{
+	background-image:url('../img/79352814.jpg');
+}
+#picfive{
+	background-image:url('../img/beardoil.jpg');
+	background-size:90% 100%;
+}
+#picsix{
+	background-image:url('../img/pacific.jpg');
+	background-size:90% 100%;
+}
+.animg{
+  width:30%;
+  height:45vh;
+  background-position:center;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+#val {
+	list-style-type: none;
+	width: 50%;
+	float: left;
+	padding: 2%;
+}
+#val li {
+	font-size: 28px;
+}
+#val h2, #work h2 {
+	text-align: center;
+	font-weight: 700;
+}
+#work ol {
+	float: left;
+	font-size: 20px;
+	margin: auto;
+	width: 100%;
+}
+#work ol li {
+	float: left;
+	font-size: 28px;
+	margin-bottom: 2%;
+	width: 100%;
+}
+#work ol h2 {
+	float: left;
+	padding-right: 0;
+	width: 100%;
+	text-align: left;
+	margin: auto;
+}
+#work ol i {
+	margin: 2% 2% 2% 7vw;
+}
+#themepic {
+	float: left;
+	margin: 6% 4%;
+	width: 25%;
+}
+#themepic h4 {
+	margin-bottom: 50%;
+	text-align: center;
+}
+.themepic {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 30% 40%;
+	margin-left:12.5%;
+}
+.first {
+	background-image: url(../img/blackbackground.png);
+	background-size: 200% 200%;
+}
+.second {
+	background-image: url(../img/winter.jpeg);
+}
+.third {
+	background-image: url(../img/spring.jpeg);
+}
+.fourth {
+	background-image: url(../img/summer.jpeg);
+}
+.fifth {
+	background-image: url(../img/fall.jpg);
+}
+.sixth {
+	background-image: url(../img/holiday.jpeg);
+}
+@media screen and (max-width:350px) {
+	#work #img {
+		margin-left: 2%!important;
+	}
+	#work a {
+		margin-left: 2%!important;
+	}
+}
+@media screen and (min-width:250px) and (max-width:700px) {
+	header:before {
+		background-size: 150% 100%;
+	}
+	.flashcard {
+		padding: 5% 1%;
+		top: 5%;
+		width: 90%;
+	}
+	.flashcard p {
+		margin-left: 5%;
+		width: 90%;
+	}
+	.flashcard a {
+		margin-right: 15%;
+		font-size: 18px;
+		margin-top: 6%;
+		padding: 2.5% 5%;
+	}
+	.chroniclebrand {
+		display: none;
+	}
+	.ptsection>*{
+		width:90%!important;
+		margin-left:5%!important;
+	}
+	.animg{
+		height:55vh;
+	}
+	#val, #work {
+		width: 100%;
+	}
+	#work h2 {
+		float: left;
+		font-size: 2rem;
+		margin-top: 10%;
+		padding-right: 0;
+		text-align: center;
+		width: 100%;
+	}
+	#work ol {
+		float: left;
+		width: 100%;
+	}
+	#work ol li {
+		font-size: 24px;
+	}
+	#work ol h2 {
+		margin: 0;
+		width: 100%;
+	}
+	#work ol i {
+		margin-left: 15vw;
+	}
+	.thumbdown {
+		margin-left: 22vw!important;
+	}
+	#work a {
+		margin-left: 7%;
+		width: 300px;
+	}
+	#themepic {
+		margin-bottom: 5%;
+		margin-left: 5%;
+		padding-bottom: 40%;
+		width: 90%;
+	}
+	#themepic h4{
+		margin-bottom:45%;
+	}
+	#parallax {
+		border-bottom: 1px solid #000;
+		height: 0;
+	}
+}
+@media screen and (min-width:375px) and (max-width:450px) {
+	.flashcard {
+		top: 18%!important;
+	}
+}
+@media screen and (min-width:760px) and (max-width:1100px) {
+	header:before {
+		background-size: 105% 100%;
+	}
+	.flashcard {
+		height: 45%;
+		margin-left: 5%;
+		width: 90%;
+	}
+	.flashcard h3 {
+		font-size: 42px;
+	}
+	.flashcard p {
+		font-size: 23px;
+	}
+	.flashcard a {
+		font-size: 23px;
+	}
+	#work h2 {
+		padding-right: 9%;
+	}
+	#work ol {
+		margin-right: 0;
+	}
+	.animg{
+		height:65vh;
+	}
+	.themepic {
+		height: 225px;
+		width: 35%;
+	}
+	#themepic {
+		margin: 9% 4%;
+		width: 42%;
+	}
+	#themepic h4 {
+		margin-bottom: 46%;
+		margin-top: 2%;
+	}
+}
